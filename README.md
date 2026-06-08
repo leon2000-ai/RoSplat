@@ -99,6 +99,8 @@ Output files:
 
 ## Data Preparation
 
+> **Demo data** is available at [Google Drive](https://drive.google.com/drive/folders/1P9_2blLESTfOcLrweaFTM_mL-JShFaKL?usp=drive_link).
+
 RoSplat requires per-view **masks**, **depth maps**, and **contour maps** in addition to RGB images.
 The full preprocessing pipeline uses three external tools:
 
