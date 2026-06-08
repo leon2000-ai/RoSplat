@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.o
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Output and results
+output/
+eval/
+*.png
+*.jpg
+*.npz
+*.out
+*.ply
+
+# Data
+data/
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+conda-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# tmp experiment directories
+scripts/tmp_*/
+scripts/eval_dtu/
+
+# Results JSON
+scripts/metrics_results_*.json
+
+# Vis output
+vis/

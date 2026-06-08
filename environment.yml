@@ -1,0 +1,39 @@
+name: rosplat
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=2.0.0
+  - torchvision=0.15.1
+  - torchaudio=2.0.1
+  - pytorch-cuda=11.8
+  - numpy
+  - pillow
+  - matplotlib
+  - tqdm
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - numba
+  - pyyaml
+  - sympy
+  - ffmpeg
+  - pandas
+  - pip:
+      - open3d==0.18.0
+      - trimesh==4.3.2
+      - plyfile
+      - opencv-python
+      - lpips
+      - kornia
+      - natsort
+      - mediapy
+      - imageio
+      - networkx
+      - -e submodules/diff-surfel-rasterization
+      - -e submodules/simple-knn
+      - -e submodules/lanczos-resampling
